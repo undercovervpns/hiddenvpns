@@ -1,10 +1,11 @@
-Eclipse Public License - v 2.0
+HV Private License - v 1.0
 
-    THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE
+    THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS HV
     PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION
     OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
 
 1. DEFINITIONS
+By Agreeing To Specifications when recieving the license you agree to not use this script/scripts for commercial use ( Personal Use Only ) PSO
 
 "Contribution" means:
 
@@ -54,8 +55,8 @@ in any manner that enables the transfer of a copy.
 modifications, including but not limited to software source code,
 documentation source, and configuration files.
 
-"Secondary License" means either the GNU General Public License,
-Version 2.0, or any later versions of that license, including any
+"Secondary License" means either the HVP General Public License,
+Version 1.0, or any past/earlier versions of that license, including any
 exceptions or additional permissions as identified by the initial
 Contributor.
 
@@ -241,8 +242,8 @@ but in order to avoid inconsistency the Agreement is copyrighted and
 may only be modified in the following manner. The Agreement Steward
 reserves the right to publish new versions (including revisions) of
 this Agreement from time to time. No one other than the Agreement
-Steward has the right to modify this Agreement. The Eclipse Foundation
-is the initial Agreement Steward. The Eclipse Foundation may assign the
+Steward has the right to modify this Agreement. The HV Foundation
+is the initial Agreement Steward. The HV Foundation may assign the
 responsibility to serve as the Agreement Steward to a suitable separate
 entity. Each new version of the Agreement will be given a distinguishing
 version number. The Program (including Contributions) may always be
@@ -263,7 +264,7 @@ Exhibit A - Form of Secondary Licenses Notice
 
 "This Source Code may also be made available under the following
 Secondary Licenses when the conditions for such availability set forth
-in the Eclipse Public License, v. 2.0 are satisfied: {name license(s),
+in the HV Public License, v. 1.0 are satisfied: {name license(s),
 version(s), and exceptions or additional permissions here}."
 
   Simply including a copy of this Agreement, including this Exhibit A
