@@ -1,11 +1,10 @@
 HV Private License - v 1.0
 
     THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS HV
-    PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION
+    Private LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION
     OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
 
 1. DEFINITIONS
-By Agreeing To Specifications when recieving the license you agree to not use this script/scripts for commercial use ( Personal Use Only ) PSO
 
 "Contribution" means:
 
@@ -55,7 +54,7 @@ in any manner that enables the transfer of a copy.
 modifications, including but not limited to software source code,
 documentation source, and configuration files.
 
-"Secondary License" means either the HVP General Public License,
+"Secondary License" means either the HVP General Private License,
 Version 1.0, or any past/earlier versions of that license, including any
 exceptions or additional permissions as identified by the initial
 Contributor.
@@ -64,8 +63,8 @@ Contributor.
 
   a) Subject to the terms of this Agreement, each Contributor hereby
   grants Recipient a non-exclusive, worldwide, royalty-free copyright
-  license to reproduce, prepare Derivative Works of, publicly display,
-  publicly perform, Distribute and sublicense the Contribution of such
+  license to reproduce, prepare Derivative Works of, Privately display,
+  Privately perform, Distribute and sublicense the Contribution of such
   Contributor, if any, and such Derivative Works.
 
   b) Subject to the terms of this Agreement, each Contributor hereby
@@ -264,7 +263,7 @@ Exhibit A - Form of Secondary Licenses Notice
 
 "This Source Code may also be made available under the following
 Secondary Licenses when the conditions for such availability set forth
-in the HV Public License, v. 1.0 are satisfied: {name license(s),
+in the HV Private License, v. 1.0 are satisfied: {name license(s),
 version(s), and exceptions or additional permissions here}."
 
   Simply including a copy of this Agreement, including this Exhibit A
@@ -276,3 +275,4 @@ version(s), and exceptions or additional permissions here}."
   look for such a notice.
 
   You may add additional accurate notices of copyright ownership.
+
