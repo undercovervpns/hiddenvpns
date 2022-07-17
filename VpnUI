@@ -224,7 +224,7 @@ function Library:Create(xHubName,xGameName)
             Size()
             for i,v in pairs(ActualSide:GetChildren()) do 
                 if v:IsA("TextButton") then 
-                    v.BackgroundColor3 = Color3.fromRGB(40, 42, 60)
+                    v.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
                     v.TextColor3 = Color3.fromRGB(190, 190, 190)
                 end
             end
@@ -831,7 +831,7 @@ function Library:Create(xHubName,xGameName)
                 
                 Option.Name = tostring(v).."_Option"
                 Option.Parent = DropList
-                Option.BackgroundColor3 = Color3.fromRGB(40, 42, 60)
+                Option.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
                 Option.Size = UDim2.new(0, 408, 0, 35)
                 Option.Font = Enum.Font.Gotham
                 Option.Text = v
@@ -864,12 +864,12 @@ function Library:Create(xHubName,xGameName)
 
                 Option.MouseEnter:Connect(function()
                     game:GetService("TweenService"):Create(Option, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-                        BackgroundColor3 = Color3.fromRGB(48, 51, 70)
+                        BackgroundColor3 = Color3.fromRGB(0, 0, 0)
                     }):Play()
                 end)
                 Option.MouseLeave:Connect(function()
                     game:GetService("TweenService"):Create(Option, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-                        BackgroundColor3 = Color3.fromRGB(40, 42, 60)
+                        BackgroundColor3 = Color3.fromRGB(0, 0, 0)
                     }):Play()
                 end)
             end
@@ -902,7 +902,7 @@ function Library:Create(xHubName,xGameName)
                             end 
                         end
                         game:GetService("TweenService"):Create(Option, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-                            TextColor3 = Color3.fromRGB(55, 74, 251)
+                            TextColor3 = Color3.fromRGB(255, 255, 255)
                         }):Play()
                         DropList:TweenSize(UDim2.new(0, 408, 0, 35), "InOut", "Linear", 0.1)
                         game:GetService("TweenService"):Create(DropdownIcon, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
@@ -917,12 +917,12 @@ function Library:Create(xHubName,xGameName)
     
                     Option.MouseEnter:Connect(function()
                         game:GetService("TweenService"):Create(Option, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-                            BackgroundColor3 = Color3.fromRGB(48, 51, 70)
+                            BackgroundColor3 = Color3.fromRGB(0, 0, 0)
                         }):Play()
                     end)
                     Option.MouseLeave:Connect(function()
                         game:GetService("TweenService"):Create(Option, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-                            BackgroundColor3 = Color3.fromRGB(40, 42, 60)
+                            BackgroundColor3 = Color3.fromRGB(0, 0, 0)
                         }):Play()
                     end)
                 end
