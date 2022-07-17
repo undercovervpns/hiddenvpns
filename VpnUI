@@ -145,7 +145,7 @@ function Library:Create(xHubName,xGameName)
 
     GameName.Name = "GameName"
     GameName.Parent = Sidebar
-    GameName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    GameName.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     GameName.BackgroundTransparency = 1.000
     GameName.BorderSizePixel = 0
     GameName.Position = UDim2.new(-0.00714285718, 0, 0.0810810775, 0)
@@ -253,7 +253,7 @@ function Library:Create(xHubName,xGameName)
 
             LabelFrame.Name = tostring(Name).."_Label"
             LabelFrame.Parent = Tab
-            LabelFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            LabelFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
             LabelFrame.Position = UDim2.new(0.0456621014, 0, 0, 0)
             LabelFrame.Size = UDim2.new(0, 408, 0, 35)
 
@@ -262,7 +262,7 @@ function Library:Create(xHubName,xGameName)
 
             Label.Name = "Label"
             Label.Parent = LabelFrame
-            Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Label.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
             Label.BackgroundTransparency = 1.000
             Label.BorderSizePixel = 0
             Label.Size = UDim2.new(0, 408, 0, 35)
@@ -327,23 +327,23 @@ function Library:Create(xHubName,xGameName)
 
             Button.MouseButton1Down:Connect(function()
                 game:GetService("TweenService"):Create(Button, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-                    BackgroundColor3 = Color3.fromRGB(55, 74, 251)
+                    BackgroundColor3 = Color3.fromRGB(0, 0, 0)
                 }):Play()
                 wait(0.1)
                 game:GetService("TweenService"):Create(Button, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-                    BackgroundColor3 = Color3.fromRGB(40, 42, 60)
+                    BackgroundColor3 = Color3.fromRGB(90, 90, 90)
                 }):Play()
                 pcall(Callback)
             end)
 
             Button.MouseEnter:Connect(function()
                 game:GetService("TweenService"):Create(Button, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-                    BackgroundColor3 = Color3.fromRGB(48, 51, 70)
+                    BackgroundColor3 = Color3.fromRGB(0, 0, 0)
                 }):Play()
             end)
             Button.MouseLeave:Connect(function()
                 game:GetService("TweenService"):Create(Button, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-                    BackgroundColor3 = Color3.fromRGB(40, 42, 60)
+                    BackgroundColor3 = Color3.fromRGB(90, 90, 90)
                 }):Play()
             end)
 
@@ -375,7 +375,7 @@ function Library:Create(xHubName,xGameName)
 
             ToggleName.Name = "ToggleName"
             ToggleName.Parent = ToggleFrame
-            ToggleName.BackgroundColor3 = Color3.fromRGB(40, 42, 60)
+            ToggleName.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
             ToggleName.BackgroundTransparency = 1.000
             ToggleName.BorderSizePixel = 0
             ToggleName.Size = UDim2.new(0, 347, 0, 35)
@@ -394,7 +394,7 @@ function Library:Create(xHubName,xGameName)
 
             ToggleF.Name = "ToggleF"
             ToggleF.Parent = ToggleFrame
-            ToggleF.BackgroundColor3 = Color3.fromRGB(55, 55, 75)
+            ToggleF.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
             ToggleF.BackgroundTransparency = 0
             ToggleF.BorderSizePixel = 0
             ToggleF.Position = UDim2.new(0.867647052, 0, 0.142857149, 0)
@@ -406,18 +406,18 @@ function Library:Create(xHubName,xGameName)
 
             ToggleButton.Name = "ToggleButton"
             ToggleButton.Parent = ToggleF
-            ToggleButton.BackgroundColor3 = Color3.fromRGB(55, 55, 75)
+            ToggleButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
             ToggleButton.BackgroundTransparency = 1
             ToggleButton.BorderSizePixel = 0
             ToggleButton.Size = UDim2.new(0, 45, 0, 23)
             ToggleButton.Font = Enum.Font.SourceSans
             ToggleButton.Text = ""
-            ToggleButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+            ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
             ToggleButton.TextSize = 14.000
 
             ToggleCircle.Name = "ToggleCircle"
             ToggleCircle.Parent = ToggleF
-            ToggleCircle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            ToggleCircle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
             ToggleCircle.BackgroundTransparency = 1.000
             ToggleCircle.Position = UDim2.new(0.093, 0,0.153, 0)
             ToggleCircle.Size = UDim2.new(0, 17, 0, 17)
